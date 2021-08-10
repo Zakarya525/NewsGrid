@@ -151,11 +151,10 @@ p {
   border-bottom: none;
 }
 
-
 /* Navigation Bar */
 
 #main-nav {
-  background: #fff;
+  background: #f4f4f4;
   position: sticky;
   top: 0;
   z-index: 2;
@@ -169,7 +168,7 @@ p {
 }
 
 #main-nav .logo {
-  width: 180px;
+  width: 50px;
 }
 
 #main-nav ul{
@@ -183,7 +182,8 @@ p {
 }
 
 #main-nav ul li a.current {
-  background: var(--primary-color);
+  background: var(--secondary-color);
+  border-radius: 2px;
   color: #fff;
 }
 
@@ -211,7 +211,7 @@ p {
 
 #showcase::before {
   content: '';
-  background: url('../img/sport1.jpg') no-repeat center center/cover;
+  background: url('../img/imgSlide/img1.jpeg') no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;

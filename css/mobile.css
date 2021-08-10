@@ -13,6 +13,10 @@
   justify-self: center;
 }
 
+#main-nav .container .logo {
+  width: 100px;
+}
+
 #showcase .showcase-container {
   height: 60vh;
 }
