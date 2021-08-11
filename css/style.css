@@ -32,6 +32,7 @@ a {
 
 img {
   width: 100%;
+  border-radius: 10px;
 }
 
 ul {
@@ -73,9 +74,9 @@ h1, h2, h3, h4, h5, h6 {
 .category {
   display: inline-block;
   color: #fff;
-  font-size: 0.55rem;
-  padding: 0.4rem 0.6rem;
-  border-radius: 15px;
+  font-size: 1rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 10px;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
 }
@@ -211,7 +212,7 @@ p {
 
 #showcase::before {
   content: '';
-  background: url('../img/imgSlide/img1.jpeg') no-repeat center center/cover;
+  background: url('../img/d2.jpg') no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -268,6 +269,14 @@ p {
 
 #article .meta .category {
   margin-top: 0.4rem;
+}
+
+#article article {
+  text-align: left;
+}
+
+#categories li {
+  text-align: center;
 }
 
 /* Footer */
